@@ -1,9 +1,9 @@
-givenNumber = input("Binary: ")
-#givenNumber = "11111111"
+#givenNumber = input("Binary: ")
+givenNumber = "11111111"
 
 length = len(givenNumber)
 
-cLength = length
+cLength = length-1
 counter = 0
 result = 0
 
@@ -19,5 +19,4 @@ while counter < length:
     counter += 1
     cLength -= 1
 
-result /= 2
 print(int(result))
